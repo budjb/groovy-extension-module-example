@@ -1,0 +1,17 @@
+apply plugin: 'groovy'
+apply plugin: 'application'
+
+group 'com.budjb.example'
+version '1.0.0'
+
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile 'org.codehaus.groovy:groovy-all:2.4.15'
+}
+
+mainClassName = 'com.budjb.example.Application'
